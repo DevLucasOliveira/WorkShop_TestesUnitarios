@@ -1,4 +1,5 @@
-﻿using WorkShop.Entities;
+﻿using System;
+using WorkShop.Entities;
 
 namespace WorkShop.Repositories
 {
@@ -6,5 +7,7 @@ namespace WorkShop.Repositories
     {
         void Create(User user);
         User GetUser(string email);
+        void Update(User user);
+        void Delete(Guid id);
     }
 }
