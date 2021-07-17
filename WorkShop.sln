@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkShop", "WorkShop\WorkShop.csproj", "{87303E66-0EE5-4797-95C6-45EADD1190ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkShop", "WorkShop\WorkShop.csproj", "{87303E66-0EE5-4797-95C6-45EADD1190ED}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Dominio", "01 - Dominio", "{A8A89832-5043-49D1-AAD4-C98CD16F0699}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Domain", "01 - Domain", "{A8A89832-5043-49D1-AAD4-C98CD16F0699}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Testes", "02 - Testes", "{E98C3719-A388-40DC-9CB2-BB0A227E0B8C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Tests", "02 - Tests", "{E98C3719-A388-40DC-9CB2-BB0A227E0B8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkShopTestes", "WorkShopTestes\WorkShopTestes.csproj", "{06392D84-1D2F-4A66-B712-D08A61DB88D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkShopTestes", "WorkShopTestes\WorkShopTestes.csproj", "{06392D84-1D2F-4A66-B712-D08A61DB88D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
