@@ -9,10 +9,15 @@ namespace WorkShop.Commands
         public string Email { get; set; }
         public string Password { get; set; }
 
-
         public void Validate()
         {
-            throw new System.NotImplementedException();
+            AddNotifications(
+                           new Contract()
+                           .Requires()
+                           .IsEmail(Email, "Email", "O campo email esta inválido")
+                           .IsNotNullOrEmpty(Email, "Email", "O email não pode ser vazio")
+                           .IsNotNullOrEmpty(Password, "Password", "A senha não pode ser vazia")
+                       );
         }
 
     }

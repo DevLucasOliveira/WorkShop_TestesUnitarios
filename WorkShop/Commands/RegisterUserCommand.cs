@@ -13,7 +13,12 @@ namespace WorkShop.Commands
 
         public void Validate()
         {
-            throw new System.NotImplementedException();
+            AddNotifications(new Contract()
+               .Requires()
+               .IsNotNullOrEmpty(Name, "Name", "O nome não pode ser vazio")
+               .IsEmail(Email, "Email", "Email inválido")
+               .IsNotNullOrEmpty(Password, "Password", "A senha não pode ser vazia")
+               .IsNotNullOrEmpty(ConfirmPassword, "ConfirmPassword", "A senha não pode ser vazia"));
         }
 
     }
