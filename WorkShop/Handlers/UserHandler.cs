@@ -97,7 +97,7 @@ namespace WorkShop.Handlers
             if (user == null)
                 return new RequestResult(false, "Usuário não cadastrado");
 
-            user.Update(command.DocumentCPF, command.DateOfBirth, command.City, command.City);
+            user.Update(command.DocumentCPF, command.DateOfBirth, command.City, command.Country);
 
             user.CompletedRegistration = true;
 
